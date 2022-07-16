@@ -1,3 +1,9 @@
+## Runing Note:
+
+The default Port of the project is 3000, you can find it in the
+main.ts, and you can console.log this port to use this http address
+in the post man or other channel.
+
 <p align="center">
   <a href="http://nestjs.com/" target="blank"><img src="https://nestjs.com/img/logo-small.svg" width="200" alt="Nest Logo" /></a>
 </p>
