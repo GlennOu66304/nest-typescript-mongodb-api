@@ -54,7 +54,7 @@ export class ArticleController {
   }
 
   @Delete(':id')
-  async delete(@Param('id') id: string, @Body() articleDto: ArticleDto) {
-    return this._articleRepository.delete(id, articleDto);
+  async delete(@Param('id') id: string) {
+    return this._articleRepository.delete(id);
   }
 }
