@@ -6,7 +6,7 @@ import { AppService } from './app.service';
 import { MongooseModule, MongooseModuleOptions } from '@nestjs/mongoose';
 import { RouterModule } from '@nestjs/core';
 import { UserModule } from './user/user.module';
-
+import { ArticleModule } from './article/article.module';
 @Module({
   imports: [
     AppConfigurationModule,
@@ -27,8 +27,13 @@ import { UserModule } from './user/user.module';
         path: 'user',
         module: UserModule,
       },
+      {
+        path: 'article',
+        module: ArticleModule,
+      },
     ]),
     UserModule,
+    ArticleModule
   ],
   controllers: [AppController],
   providers: [AppService],
