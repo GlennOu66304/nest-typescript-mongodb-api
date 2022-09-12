@@ -22,7 +22,9 @@ Delete package-lock.json file and then try to install
 
 ## Regular deploy follow up
 
+**[shorturl-api-typescript](https://github.com/GlennOu66304/shorturl-api-typescript)**
 
+## Main tutorial
 
 [Deploying a NestJS App With Heroku](https://medium.com/weekly-webtips/deploying-a-nestjs-app-with-heroku-5fa84cb5b6c6)
 
