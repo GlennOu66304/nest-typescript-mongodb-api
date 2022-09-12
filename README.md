@@ -1,79 +1,75 @@
-## Runing Note:
+MANT  Stack([MongoDB Angular NestJS TypeScript](https://morioh.com/p/ffa5a649384f))
 
-The default Port of the project is 3000, you can find it in the
-main.ts, and you can console.log this port to use this http address
-in the post man or other channel.
 
-<p align="center">
-  <a href="http://nestjs.com/" target="blank"><img src="https://nestjs.com/img/logo-small.svg" width="200" alt="Nest Logo" /></a>
-</p>
 
-[circleci-image]: https://img.shields.io/circleci/build/github/nestjs/nest/master?token=abc123def456
-[circleci-url]: https://circleci.com/gh/nestjs/nest
+## BackEnd:
 
-  <p align="center">A progressive <a href="http://nodejs.org" target="_blank">Node.js</a> framework for building efficient and scalable server-side applications.</p>
-    <p align="center">
-<a href="https://www.npmjs.com/~nestjscore" target="_blank"><img src="https://img.shields.io/npm/v/@nestjs/core.svg" alt="NPM Version" /></a>
-<a href="https://www.npmjs.com/~nestjscore" target="_blank"><img src="https://img.shields.io/npm/l/@nestjs/core.svg" alt="Package License" /></a>
-<a href="https://www.npmjs.com/~nestjscore" target="_blank"><img src="https://img.shields.io/npm/dm/@nestjs/common.svg" alt="NPM Downloads" /></a>
-<a href="https://circleci.com/gh/nestjs/nest" target="_blank"><img src="https://img.shields.io/circleci/build/github/nestjs/nest/master" alt="CircleCI" /></a>
-<a href="https://coveralls.io/github/nestjs/nest?branch=master" target="_blank"><img src="https://coveralls.io/repos/github/nestjs/nest/badge.svg?branch=master#9" alt="Coverage" /></a>
-<a href="https://discord.gg/G7Qnnhy" target="_blank"><img src="https://img.shields.io/badge/discord-online-brightgreen.svg" alt="Discord"/></a>
-<a href="https://opencollective.com/nest#backer" target="_blank"><img src="https://opencollective.com/nest/backers/badge.svg" alt="Backers on Open Collective" /></a>
-<a href="https://opencollective.com/nest#sponsor" target="_blank"><img src="https://opencollective.com/nest/sponsors/badge.svg" alt="Sponsors on Open Collective" /></a>
-  <a href="https://paypal.me/kamilmysliwiec" target="_blank"><img src="https://img.shields.io/badge/Donate-PayPal-ff3f59.svg"/></a>
-    <a href="https://opencollective.com/nest#sponsor"  target="_blank"><img src="https://img.shields.io/badge/Support%20us-Open%20Collective-41B883.svg" alt="Support us"></a>
-  <a href="https://twitter.com/nestframework" target="_blank"><img src="https://img.shields.io/twitter/follow/nestframework.svg?style=social&label=Follow"></a>
-</p>
-  <!--[![Backers on Open Collective](https://opencollective.com/nest/backers/badge.svg)](https://opencollective.com/nest#backer)
-  [![Sponsors on Open Collective](https://opencollective.com/nest/sponsors/badge.svg)](https://opencollective.com/nest#sponsor)-->
+1.Tech Stack:
 
-## Description
+1.1Mongodb
 
-[Nest](https://github.com/nestjs/nest) framework TypeScript starter repository.
+1.2.Nest JS
 
-## Installation
+1.3.Typescript
 
-```bash
-$ npm install
+
+
+2.Set Up the Bakc End Project:
+
+Model Controller Route main route
+
+2.1 Model: user.ts
+
+2.2 Controller(repository):mongoose function--->user.repository.ts
+
+2. 2.3 all in one: user.module.ts
+
+2. 2.4controller in nest: responsible for the error or success of the mongoose process
+
+2. 2.5Route:is in the app.module and router.module
+
+[Setup project](https://javascript.plainenglish.io/build-a-server-side-app-with-typescript-nestjs-and-mongodb-d29d26ac1ab3)
+
+[Modern Full-Stack Development with Nest.js, React, TypeScript, and MongoDB: Part 1](https://auth0.com/blog/modern-full-stack-development-with-nestjs-react-typescript-and-mongodb-part-1/)
+
+##Front End:
+
+1.Tech Stack:
+
+1.1Angular
+
+1.2.Typescrip
+
+
+
+2.Build the Angular Project
+
+2.1 build the project
+
+2.2 build the route
+
+if you can not see the router page result, you can clean the app.component.html code content, then replace the content 
+
+with only the 
+
+```
+<div class="container">
+    <router-outlet></router-outlet>
+  </div>
 ```
 
-## Running the app
 
-```bash
-# development
-$ npm run start
 
-# watch mode
-$ npm run start:dev
+2.3 then restart the project
 
-# production mode
-$ npm run start:prod
-```
+[Build a web app using Nestjs, createdAt, MongoDB and Angular 8](https://www.djamware.com/post/5d2898430707cc5968d9d57f/build-a-web-app-using-nestjs-fastify-mongodb-and-angular-8)
 
-## Test
+[MEAN Project](https://livebook.manning.com/book/getting-mean-with-mongo-express-angular-and-node-second-edition/chapter-4/)
 
-```bash
-# unit tests
-$ npm run test
 
-# e2e tests
-$ npm run test:e2e
 
-# test coverage
-$ npm run test:cov
-```
+# [Difference between ng add  vs npm install  in angular 6](https://stackoverflow.com/questions/50169680/difference-between-ng-add-package-name-vs-npm-install-package-name-in-angula)
 
-## Support
 
-Nest is an MIT-licensed open source project. It can grow thanks to the sponsors and support by the amazing backers. If you'd like to join them, please [read more here](https://docs.nestjs.com/support).
 
-## Stay in touch
-
-- Author - [Kamil Myśliwiec](https://kamilmysliwiec.com)
-- Website - [https://nestjs.com](https://nestjs.com/)
-- Twitter - [@nestframework](https://twitter.com/nestframework)
-
-## License
-
-Nest is [MIT licensed](LICENSE).
+# [Angular 4 - Please include either "BrowserAnimationsModule" or "NoopAnimationsModule" in your application](https://stackoverflow.com/questions/46683027/angular-4-please-include-either-browseranimationsmodule-or-noopanimationsmo)
