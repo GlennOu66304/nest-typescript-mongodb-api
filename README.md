@@ -2,13 +2,33 @@ MANT  Stack([MongoDB Angular NestJS TypeScript](https://morioh.com/p/ffa5a649384
 
 
 
-## [When I run `npm install`, it returns with `ERR! code EINTEGRITY` (npm 5.3.0)](https://stackoverflow.com/questions/47545940/when-i-run-npm-install-it-returns-with-err-code-eintegrity-npm-5-3-0)
+## 1.specify the node version
+
+## 2.build the Profile 
+
+## 3.Mongodb connection issue fix
+
+
+
+Do not use the command option to set the mongod db env value, just copy the value from mongdb atlas, then paste it into the env config value
+
+[Heroku deployment with mongodb atlas failed](https://forum.codewithmosh.com/t/heroku-deployment-with-mongodb-atlas-failed/1626)
+
+## 4.[When I run `npm install`, it returns with `ERR! code EINTEGRITY` (npm 5.3.0)](https://stackoverflow.com/questions/47545940/when-i-run-npm-install-it-returns-with-err-code-eintegrity-npm-5-3-0)
 
 ```
 Delete package-lock.json file and then try to install
 ```
 
+## Regular deploy follow up
 
+
+
+[Deploying a NestJS App With Heroku](https://medium.com/weekly-webtips/deploying-a-nestjs-app-with-heroku-5fa84cb5b6c6)
+
+[Deploying a Production NestJS Server on Heroku](https://www.joshmorony.com/deploying-a-production-nestjs-server-on-heroku/)
+
+[Deploy NestJS typescript app to Heroku (Solved: 503 Error)](https://dev.to/rosyshrestha/deploy-nestjs-typescript-app-to-heroku-27e)
 
 ## BackEnd:
 
