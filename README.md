@@ -2,6 +2,14 @@ MANT  Stack([MongoDB Angular NestJS TypeScript](https://morioh.com/p/ffa5a649384
 
 
 
+## [When I run `npm install`, it returns with `ERR! code EINTEGRITY` (npm 5.3.0)](https://stackoverflow.com/questions/47545940/when-i-run-npm-install-it-returns-with-err-code-eintegrity-npm-5-3-0)
+
+```
+Delete package-lock.json file and then try to install
+```
+
+
+
 ## BackEnd:
 
 1.Tech Stack:
