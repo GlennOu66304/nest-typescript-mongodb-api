@@ -27,7 +27,7 @@ Delete package-lock.json file and then try to install
 Model Controller Route main route
 
 2.1 Model: user.ts
-
+1
 2.2 Controller(repository):mongoose function--->user.repository.ts
 
 2. 2.3 all in one: user.module.ts
